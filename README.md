@@ -189,7 +189,7 @@ The project uses the **Groq Llama3** model to generate data based on user inputs
     ```js
     const prompt = generatePrompt(timeInterval, totalDuration, variables, errors, phaseCount, phaseDurations);
     ```
-
+    
 2. **Calling the Groq API**: The prompt is sent to the Groq model, and the AI returns the generated dataset as a plain-text CSV.
 
 3. **CSV Generation**: The backend converts the generated dataset into a CSV format using `json2csv` and sends it back to the frontend.
