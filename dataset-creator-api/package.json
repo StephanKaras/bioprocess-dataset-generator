@@ -1,0 +1,19 @@
+{
+  "name": "bioprocess-simulation",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "groq-sdk": "^0.7.0",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
