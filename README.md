@@ -60,7 +60,6 @@ This documentation explains the structure, purpose, and functionality of each co
     ```bash
     node server.js
     ```
-
 ---
 
 ## Frontend Overview
